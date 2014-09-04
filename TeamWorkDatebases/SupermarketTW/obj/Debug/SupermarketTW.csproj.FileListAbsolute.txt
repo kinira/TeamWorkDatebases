@@ -18,3 +18,5 @@ D:\temp\CSharp Projects\Supermarket\TeamWorkDatebases\SupermarketTW\bin\Debug\Mo
 D:\temp\CSharp Projects\Supermarket\TeamWorkDatebases\SupermarketTW\bin\Debug\MongoDB.Driver.dll
 D:\temp\CSharp Projects\Supermarket\TeamWorkDatebases\SupermarketTW\bin\Debug\MongoDB.Bson.xml
 D:\temp\CSharp Projects\Supermarket\TeamWorkDatebases\SupermarketTW\bin\Debug\MongoDB.Driver.xml
+D:\temp\CSharp Projects\Supermarket\TeamWorkDatebases\SupermarketTW\bin\Debug\ServiceStack.Text.dll
+D:\temp\CSharp Projects\Supermarket\TeamWorkDatebases\SupermarketTW\bin\Debug\ServiceStack.Text.xml
