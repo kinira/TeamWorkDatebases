@@ -5,7 +5,7 @@
     using MongoDB.Driver;
     using MongoDB.Driver.Builders;
 
-    public class Product
+    public class ProductDocument
     {
         [BsonRepresentation(BsonType.ObjectId)]
         public string Id { get; set; }

@@ -8,3 +8,7 @@ D:\temp\CSharp Projects\Supermarket\TeamWorkDatebases\SupermarketTW.Models\bin\D
 D:\temp\CSharp Projects\Supermarket\TeamWorkDatebases\SupermarketTW.Models\bin\Debug\EntityFramework.xml
 D:\temp\CSharp Projects\Supermarket\TeamWorkDatebases\SupermarketTW.Models\bin\Debug\EntityFramework.SqlServer.xml
 D:\temp\CSharp Projects\Supermarket\TeamWorkDatebases\SupermarketTW.Models\obj\Debug\SupermarketTW.Models.csprojResolveAssemblyReference.cache
+D:\temp\CSharp Projects\Supermarket\TeamWorkDatebases\SupermarketTW.Models\bin\Debug\MongoDB.Bson.dll
+D:\temp\CSharp Projects\Supermarket\TeamWorkDatebases\SupermarketTW.Models\bin\Debug\MongoDB.Driver.dll
+D:\temp\CSharp Projects\Supermarket\TeamWorkDatebases\SupermarketTW.Models\bin\Debug\MongoDB.Bson.xml
+D:\temp\CSharp Projects\Supermarket\TeamWorkDatebases\SupermarketTW.Models\bin\Debug\MongoDB.Driver.xml

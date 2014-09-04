@@ -14,3 +14,7 @@ D:\temp\CSharp Projects\Supermarket\TeamWorkDatebases\SupermarketTW\bin\Debug\En
 D:\temp\CSharp Projects\Supermarket\TeamWorkDatebases\SupermarketTW\obj\Debug\SupermarketTW.csprojResolveAssemblyReference.cache
 D:\temp\CSharp Projects\Supermarket\TeamWorkDatebases\SupermarketTW\obj\Debug\SupermarketTW.exe
 D:\temp\CSharp Projects\Supermarket\TeamWorkDatebases\SupermarketTW\obj\Debug\SupermarketTW.pdb
+D:\temp\CSharp Projects\Supermarket\TeamWorkDatebases\SupermarketTW\bin\Debug\MongoDB.Bson.dll
+D:\temp\CSharp Projects\Supermarket\TeamWorkDatebases\SupermarketTW\bin\Debug\MongoDB.Driver.dll
+D:\temp\CSharp Projects\Supermarket\TeamWorkDatebases\SupermarketTW\bin\Debug\MongoDB.Bson.xml
+D:\temp\CSharp Projects\Supermarket\TeamWorkDatebases\SupermarketTW\bin\Debug\MongoDB.Driver.xml

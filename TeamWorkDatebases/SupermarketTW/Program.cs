@@ -6,46 +6,74 @@
     using System.Linq;
 
     using SupermarketTW.Data;
-    using SupermarketTW.Models.SQL;
     using SupermarketTW.Data.Migrations;
+    using SupermarketTW.Models.MongoDb;
+    using SupermarketTW.Models.SQL;
+    using MongoDB.Driver;
 
     class Program
     {
+        const string DatabaseHost = "mongodb://127.0.0.1";
+        const string DatabaseName = "Supermarket";
+
         static void Main()
         {
+            RecodeFromMongoDbToSQL(GetMongoDatabase(DatabaseName, DatabaseHost), new SupermarketTWDbContext());
+        }
+
+        static MongoDatabase GetMongoDatabase(string name, string fromHost)
+        {
+            var mongoClient = new MongoClient(fromHost);
+            var server = mongoClient.GetServer();
+            return server.GetDatabase(name);
+        }
+
+        static void RecodeFromMongoDbToSQL(MongoDatabase mongoDb, DbContext sqlDbContext)
+        {
+            //SQL DB server
             Database.SetInitializer(
                 new MigrateDatabaseToLatestVersion<SupermarketTWDbContext, Configuration>());
-            var db = new SupermarketTWDbContext();
+            var sqlDb = sqlDbContext as SupermarketTWDbContext;
 
-            var measure = db.Measures.First(m => m.Name.Equals("liters"));
-
-            var vendor = db.Vendors.First(v => v.Name.Equals("THE COCA COLA COMPANY"));
-
-            var product1 = new Product()
-            {
-                Name = "Coca cola Light",
-                BasePrice = 1.92,
-                Measure = measure,
-                Vendor = vendor
-            };
-
-            db.Products.Add(product1);
-            db.SaveChanges();
-
-            var products = db.Products.ToList();
-
+            //Mongo DB server
+            var products = mongoDb.GetCollection<ProductDocument>("Products").FindAll();
+            
             foreach (var product in products)
             {
-                System.Text.StringBuilder output = new System.Text.StringBuilder();
-                output.AppendLine("id: " + product.Id);
-                output.AppendLine("name: " + product.Name);
-                output.AppendLine("price: " + product.BasePrice);
-                output.AppendLine("vendor: " + product.Vendor);
-                output.AppendLine("measure: " + product.Measure);
-                output.AppendLine(new string('-', 50));
+                if (sqlDb.Products.FirstOrDefault(p => p.Name.Equals(product.Name)) == null)
+                {
+                    var measure = sqlDb.Measures.FirstOrDefault(m => m.Name.Equals(product.Measure));
+                    if (measure == null)
+                    {
+                        measure = new Measure()
+                        {
+                            Name = product.Measure
+                        };
+                        sqlDb.Measures.Add(measure);
+                    }
 
-                Console.WriteLine(output.ToString());
-            }
+                    var vendor = sqlDb.Vendors.FirstOrDefault(v => v.Name.Equals(product.Vendor));
+                    if (vendor == null)
+                    {
+                        vendor = new Vendor()
+                        {
+                            Name = product.Vendor
+                        };
+                        sqlDb.Vendors.Add(vendor);
+                    }
+
+                    var newProduct = new Product()
+                    {
+                        Name = product.Name,
+                        BasePrice = product.BasePrice,
+                        Vendor = vendor,
+                        Measure = measure
+                    };
+
+                    sqlDb.Products.Add(newProduct);
+                    sqlDbContext.SaveChanges();
+                }
+            }            
         }
     }
 }

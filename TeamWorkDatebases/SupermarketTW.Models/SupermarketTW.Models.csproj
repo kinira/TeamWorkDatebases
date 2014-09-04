@@ -52,7 +52,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="MongoDb\Product.cs" />
+    <Compile Include="MongoDb\ProductDocument.cs" />
     <Compile Include="SQL\Measure.cs" />
     <Compile Include="SQL\Product.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
