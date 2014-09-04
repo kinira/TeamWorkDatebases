@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
+VisualStudioVersion = 12.0.30723.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoadExcelReportsFromZipFile", "LoadExcelReportsFromZipFile\LoadExcelReportsFromZipFile.csproj", "{F22533EA-C6DB-4F20-B21B-57AE256C1951}"
 EndProject
@@ -10,6 +10,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SupermarketTW.Models", "SupermarketTW.Models\SupermarketTW.Models.csproj", "{880FCE1B-B996-4D78-B732-93CF145C437B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SupermarketTW.Data", "SupermarketTW.Data\SupermarketTW.Data.csproj", "{CBEC599E-D9D0-4DEA-8E6F-53972DE897A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PDFCreator", "PDFCreator\PDFCreator.csproj", "{5016F424-D6E7-45AC-AE48-B879A31A687D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{CBEC599E-D9D0-4DEA-8E6F-53972DE897A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CBEC599E-D9D0-4DEA-8E6F-53972DE897A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CBEC599E-D9D0-4DEA-8E6F-53972DE897A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5016F424-D6E7-45AC-AE48-B879A31A687D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5016F424-D6E7-45AC-AE48-B879A31A687D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5016F424-D6E7-45AC-AE48-B879A31A687D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5016F424-D6E7-45AC-AE48-B879A31A687D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

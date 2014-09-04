@@ -4,3 +4,6 @@ D:\temp\CSharp Projects\Supermarket\TeamWorkDatebases\LoadExcelReportsFromZipFil
 D:\temp\CSharp Projects\Supermarket\TeamWorkDatebases\LoadExcelReportsFromZipFile\obj\Debug\LoadExcelReportsFromZipFile.csprojResolveAssemblyReference.cache
 D:\temp\CSharp Projects\Supermarket\TeamWorkDatebases\LoadExcelReportsFromZipFile\obj\Debug\LoadExcelReportsFromZipFile.exe
 D:\temp\CSharp Projects\Supermarket\TeamWorkDatebases\LoadExcelReportsFromZipFile\obj\Debug\LoadExcelReportsFromZipFile.pdb
+F:\Telerik\GitHub\TeamWorkDatebases\TeamWorkDatebases\LoadExcelReportsFromZipFile\bin\Debug\LoadExcelReportsFromZipFile.exe.config
+F:\Telerik\GitHub\TeamWorkDatebases\TeamWorkDatebases\LoadExcelReportsFromZipFile\obj\Debug\LoadExcelReportsFromZipFile.exe
+F:\Telerik\GitHub\TeamWorkDatebases\TeamWorkDatebases\LoadExcelReportsFromZipFile\obj\Debug\LoadExcelReportsFromZipFile.pdb
