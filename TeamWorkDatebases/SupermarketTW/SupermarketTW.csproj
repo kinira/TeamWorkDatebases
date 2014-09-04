@@ -32,7 +32,20 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.6.1.1\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\packages\EntityFramework.6.1.1\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="MongoDB.Bson">
+      <HintPath>..\packages\mongocsharpdriver.1.9.2\lib\net35\MongoDB.Bson.dll</HintPath>
+    </Reference>
+    <Reference Include="MongoDB.Driver">
+      <HintPath>..\packages\mongocsharpdriver.1.9.2\lib\net35\MongoDB.Driver.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -46,8 +59,22 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\LoadExcelReportsFromZipFile\LoadExcelReportsFromZipFile.csproj">
+      <Project>{f22533ea-c6db-4f20-b21b-57ae256c1951}</Project>
+      <Name>LoadExcelReportsFromZipFile</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SupermarketTW.Data\SupermarketTW.Data.csproj">
+      <Project>{cbec599e-d9d0-4dea-8e6f-53972de897a9}</Project>
+      <Name>SupermarketTW.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SupermarketTW.Models\SupermarketTW.Models.csproj">
+      <Project>{880fce1b-b996-4d78-b732-93cf145c437b}</Project>
+      <Name>SupermarketTW.Models</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
