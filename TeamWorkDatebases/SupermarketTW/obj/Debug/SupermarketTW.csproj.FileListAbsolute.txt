@@ -1,0 +1,16 @@
+D:\temp\CSharp Projects\Supermarket\TeamWorkDatebases\SupermarketTW\bin\Debug\SupermarketTW.exe.config
+D:\temp\CSharp Projects\Supermarket\TeamWorkDatebases\SupermarketTW\bin\Debug\SupermarketTW.exe
+D:\temp\CSharp Projects\Supermarket\TeamWorkDatebases\SupermarketTW\bin\Debug\SupermarketTW.pdb
+D:\temp\CSharp Projects\Supermarket\TeamWorkDatebases\SupermarketTW\bin\Debug\EntityFramework.dll
+D:\temp\CSharp Projects\Supermarket\TeamWorkDatebases\SupermarketTW\bin\Debug\EntityFramework.SqlServer.dll
+D:\temp\CSharp Projects\Supermarket\TeamWorkDatebases\SupermarketTW\bin\Debug\LoadExcelReportsFromZipFile.exe
+D:\temp\CSharp Projects\Supermarket\TeamWorkDatebases\SupermarketTW\bin\Debug\SupermarketTW.Data.dll
+D:\temp\CSharp Projects\Supermarket\TeamWorkDatebases\SupermarketTW\bin\Debug\SupermarketTW.Models.dll
+D:\temp\CSharp Projects\Supermarket\TeamWorkDatebases\SupermarketTW\bin\Debug\LoadExcelReportsFromZipFile.pdb
+D:\temp\CSharp Projects\Supermarket\TeamWorkDatebases\SupermarketTW\bin\Debug\SupermarketTW.Data.pdb
+D:\temp\CSharp Projects\Supermarket\TeamWorkDatebases\SupermarketTW\bin\Debug\SupermarketTW.Models.pdb
+D:\temp\CSharp Projects\Supermarket\TeamWorkDatebases\SupermarketTW\bin\Debug\EntityFramework.xml
+D:\temp\CSharp Projects\Supermarket\TeamWorkDatebases\SupermarketTW\bin\Debug\EntityFramework.SqlServer.xml
+D:\temp\CSharp Projects\Supermarket\TeamWorkDatebases\SupermarketTW\obj\Debug\SupermarketTW.csprojResolveAssemblyReference.cache
+D:\temp\CSharp Projects\Supermarket\TeamWorkDatebases\SupermarketTW\obj\Debug\SupermarketTW.exe
+D:\temp\CSharp Projects\Supermarket\TeamWorkDatebases\SupermarketTW\obj\Debug\SupermarketTW.pdb

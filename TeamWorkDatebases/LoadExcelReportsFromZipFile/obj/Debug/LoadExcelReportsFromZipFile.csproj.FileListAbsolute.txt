@@ -1,0 +1,6 @@
+D:\temp\CSharp Projects\Supermarket\TeamWorkDatebases\LoadExcelReportsFromZipFile\bin\Debug\LoadExcelReportsFromZipFile.exe.config
+D:\temp\CSharp Projects\Supermarket\TeamWorkDatebases\LoadExcelReportsFromZipFile\bin\Debug\LoadExcelReportsFromZipFile.exe
+D:\temp\CSharp Projects\Supermarket\TeamWorkDatebases\LoadExcelReportsFromZipFile\bin\Debug\LoadExcelReportsFromZipFile.pdb
+D:\temp\CSharp Projects\Supermarket\TeamWorkDatebases\LoadExcelReportsFromZipFile\obj\Debug\LoadExcelReportsFromZipFile.csprojResolveAssemblyReference.cache
+D:\temp\CSharp Projects\Supermarket\TeamWorkDatebases\LoadExcelReportsFromZipFile\obj\Debug\LoadExcelReportsFromZipFile.exe
+D:\temp\CSharp Projects\Supermarket\TeamWorkDatebases\LoadExcelReportsFromZipFile\obj\Debug\LoadExcelReportsFromZipFile.pdb

@@ -1,0 +1,12 @@
+D:\temp\CSharp Projects\Supermarket\TeamWorkDatebases\SupermarketTW.Data\bin\Debug\SupermarketTW.Data.dll.config
+D:\temp\CSharp Projects\Supermarket\TeamWorkDatebases\SupermarketTW.Data\bin\Debug\SupermarketTW.Data.dll
+D:\temp\CSharp Projects\Supermarket\TeamWorkDatebases\SupermarketTW.Data\bin\Debug\SupermarketTW.Data.pdb
+D:\temp\CSharp Projects\Supermarket\TeamWorkDatebases\SupermarketTW.Data\bin\Debug\EntityFramework.dll
+D:\temp\CSharp Projects\Supermarket\TeamWorkDatebases\SupermarketTW.Data\bin\Debug\EntityFramework.SqlServer.dll
+D:\temp\CSharp Projects\Supermarket\TeamWorkDatebases\SupermarketTW.Data\bin\Debug\SupermarketTW.Models.dll
+D:\temp\CSharp Projects\Supermarket\TeamWorkDatebases\SupermarketTW.Data\bin\Debug\SupermarketTW.Models.pdb
+D:\temp\CSharp Projects\Supermarket\TeamWorkDatebases\SupermarketTW.Data\bin\Debug\EntityFramework.xml
+D:\temp\CSharp Projects\Supermarket\TeamWorkDatebases\SupermarketTW.Data\bin\Debug\EntityFramework.SqlServer.xml
+D:\temp\CSharp Projects\Supermarket\TeamWorkDatebases\SupermarketTW.Data\obj\Debug\SupermarketTW.Data.csprojResolveAssemblyReference.cache
+D:\temp\CSharp Projects\Supermarket\TeamWorkDatebases\SupermarketTW.Data\obj\Debug\SupermarketTW.Data.dll
+D:\temp\CSharp Projects\Supermarket\TeamWorkDatebases\SupermarketTW.Data\obj\Debug\SupermarketTW.Data.pdb

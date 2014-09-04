@@ -1,0 +1,10 @@
+D:\temp\CSharp Projects\Supermarket\TeamWorkDatebases\SupermarketTW.Models\bin\Debug\SupermarketTW.Models.dll
+D:\temp\CSharp Projects\Supermarket\TeamWorkDatebases\SupermarketTW.Models\bin\Debug\SupermarketTW.Models.pdb
+D:\temp\CSharp Projects\Supermarket\TeamWorkDatebases\SupermarketTW.Models\obj\Debug\SupermarketTW.Models.dll
+D:\temp\CSharp Projects\Supermarket\TeamWorkDatebases\SupermarketTW.Models\obj\Debug\SupermarketTW.Models.pdb
+D:\temp\CSharp Projects\Supermarket\TeamWorkDatebases\SupermarketTW.Models\bin\Debug\SupermarketTW.Models.dll.config
+D:\temp\CSharp Projects\Supermarket\TeamWorkDatebases\SupermarketTW.Models\bin\Debug\EntityFramework.dll
+D:\temp\CSharp Projects\Supermarket\TeamWorkDatebases\SupermarketTW.Models\bin\Debug\EntityFramework.SqlServer.dll
+D:\temp\CSharp Projects\Supermarket\TeamWorkDatebases\SupermarketTW.Models\bin\Debug\EntityFramework.xml
+D:\temp\CSharp Projects\Supermarket\TeamWorkDatebases\SupermarketTW.Models\bin\Debug\EntityFramework.SqlServer.xml
+D:\temp\CSharp Projects\Supermarket\TeamWorkDatebases\SupermarketTW.Models\obj\Debug\SupermarketTW.Models.csprojResolveAssemblyReference.cache
